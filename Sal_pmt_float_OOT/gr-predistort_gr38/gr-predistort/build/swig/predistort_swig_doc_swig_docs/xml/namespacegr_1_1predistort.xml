@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1predistort" kind="namespace" language="C++">
+    <compoundname>gr::predistort</compoundname>
+    <innerclass refid="classgr_1_1predistort_1_1add__by__msg" prot="public">gr::predistort::add_by_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1add__complex__by__msg" prot="public">gr::predistort::add_complex_by_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1async__signal__mux" prot="public">gr::predistort::async_signal_mux</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1delay__msg" prot="public">gr::predistort::delay_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1fractional__delay__msg" prot="public">gr::predistort::fractional_delay_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1iq__delay__by__msg" prot="public">gr::predistort::iq_delay_by_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1mult__by__msg" prot="public">gr::predistort::mult_by_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1mult__complex__by__msg" prot="public">gr::predistort::mult_complex_by_msg</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/add_by_msg.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

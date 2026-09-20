@@ -1,0 +1,24 @@
+id: predistort_add_complex_by_msg
+label: Complex Add Msg
+category: '[predistort]'
+
+templates:
+  imports: import predistort
+  make: predistort.add_complex_by_msg()
+
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+  
+- label: ctrl_in
+  domain: message
+  id: ctrl_in
+  optional: true
+
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+
+file_format: 1

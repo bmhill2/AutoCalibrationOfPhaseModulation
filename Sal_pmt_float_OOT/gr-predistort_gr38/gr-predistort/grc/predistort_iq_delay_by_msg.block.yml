@@ -1,0 +1,31 @@
+id: predistort_iq_delay_by_msg
+label: IQ Delay Msg
+category: '[predistort]'
+
+templates:
+  imports: import predistort
+  make: predistort.iq_delay_by_msg(${max_delay})
+
+parameters:
+- id: max_delay
+  label: Max Delay (Samples)
+  dtype: int
+  default: '1024'
+  hide: none
+
+inputs:
+- domain: stream
+  dtype: complex
+  vlen: 1
+
+- label: ctrl_in
+  domain: message
+  id: ctrl_in
+  optional: true
+
+outputs:
+- domain: stream
+  dtype: complex
+  vlen: 1
+
+file_format: 1

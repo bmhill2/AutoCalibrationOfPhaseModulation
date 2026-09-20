@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacegr_1_1predistort" kind="namespace" language="C++">
+    <compoundname>gr::predistort</compoundname>
+    <innerclass refid="classgr_1_1predistort_1_1add__by__msg__impl" prot="public">gr::predistort::add_by_msg_impl</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1add__by__msg" prot="public">gr::predistort::add_by_msg</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1async__signal__mux" prot="public">gr::predistort::async_signal_mux</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1multiply__by__message" prot="public">gr::predistort::multiply_by_message</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1async__signal__mux__impl" prot="public">gr::predistort::async_signal_mux_impl</innerclass>
+    <innerclass refid="classgr_1_1predistort_1_1multiply__by__message__impl" prot="public">gr::predistort::multiply_by_message_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sal/Documents/nanouhf/GR38/gr-predistort/add_by_msg_impl.h" line="27" column="3"/>
+  </compounddef>
+</doxygen>

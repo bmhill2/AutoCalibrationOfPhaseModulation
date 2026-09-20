@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1predistort_1_1mult__by__msg" kind="class" language="C++" prot="public">
+    <compoundname>gr::predistort::mult_by_msg</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="mult__by__msg_8h" local="no">mult_by_msg.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1predistort_1_1mult__by__msg_1a0d070d4a944c1f6f1a506fd7f4fd2ed6" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1predistort_1_1mult__by__msg" kindref="compound">mult_by_msg</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;mult_by_msg&gt; gr::predistort::mult_by_msg::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/mult_by_msg.h" line="38" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/mult_by_msg.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1mult__by__msg_1afa2999d699dcb331b1672f52f478961e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1predistort_1_1mult__by__msg_1a0d070d4a944c1f6f1a506fd7f4fd2ed6" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::predistort::mult_by_msg::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1predistort_1_1mult__by__msg" kindref="compound">predistort::mult_by_msg</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1predistort_1_1mult__by__msg" kindref="compound">predistort::mult_by_msg</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1predistort_1_1mult__by__msg_1afa2999d699dcb331b1672f52f478961e" kindref="member">predistort::mult_by_msg::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/mult_by_msg.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>sync_block</label>
+      </node>
+      <node id="24">
+        <label>gr::predistort::mult_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1mult__by__msg"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>sync_block</label>
+      </node>
+      <node id="26">
+        <label>gr::predistort::mult_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1mult__by__msg"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/mult_by_msg.h" line="36" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/mult_by_msg.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1predistort_1_1mult__by__msg_1afa2999d699dcb331b1672f52f478961e" prot="public" virt="non-virtual"><scope>gr::predistort::mult_by_msg</scope><name>make</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__by__msg_1a0d070d4a944c1f6f1a506fd7f4fd2ed6" prot="public" virt="non-virtual"><scope>gr::predistort::mult_by_msg</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

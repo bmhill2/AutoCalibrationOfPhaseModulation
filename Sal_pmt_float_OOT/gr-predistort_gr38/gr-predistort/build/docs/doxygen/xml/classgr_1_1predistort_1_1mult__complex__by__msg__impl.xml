@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1predistort_1_1mult__complex__by__msg__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::predistort::mult_complex_by_msg_impl</compoundname>
+    <basecompoundref refid="classgr_1_1predistort_1_1mult__complex__by__msg" prot="public" virt="non-virtual">gr::predistort::mult_complex_by_msg</basecompoundref>
+    <includes refid="mult__complex__by__msg__impl_8h" local="no">mult_complex_by_msg_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a8c926b432b3c21e13bf2e51b60df99aa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::mult_complex_by_msg_impl::d_val</definition>
+        <argsstring></argsstring>
+        <name>d_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="33" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1ae2fe3ebc0b729604f5f76f17273656f5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::mult_complex_by_msg_impl::d_val_real</definition>
+        <argsstring></argsstring>
+        <name>d_val_real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="34" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1af3c6879e639d2b083e4d446cb9d79cfb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::mult_complex_by_msg_impl::d_val_imag</definition>
+        <argsstring></argsstring>
+        <name>d_val_imag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="35" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1aa714d3ea62cdcbb8f12590c0e5d1c3cf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::predistort::mult_complex_by_msg_impl::d_scalar</definition>
+        <argsstring></argsstring>
+        <name>d_scalar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="36" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1aaaf5ad7fb478ef2de8ce81c1d7e90747" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::predistort::mult_complex_by_msg_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="38" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a40474513fbe9fcb0d167f16365303f24" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::predistort::mult_complex_by_msg_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a40f94d4ca9f07515526f19a21bdb5fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::mult_complex_by_msg_impl::mult_complex_by_msg_impl</definition>
+        <argsstring>()</argsstring>
+        <name>mult_complex_by_msg_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a4a1f9be7ec0d181501bb530ed79c6c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::mult_complex_by_msg_impl::~mult_complex_by_msg_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~mult_complex_by_msg_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a56a884e6cf83d22aaf1d40f002c94a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::predistort::mult_complex_by_msg_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="83">
+        <label>gr::predistort::mult_complex_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1mult__complex__by__msg"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>sync_block</label>
+      </node>
+      <node id="82">
+        <label>gr::predistort::mult_complex_by_msg_impl</label>
+        <link refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>gr::predistort::mult_complex_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1mult__complex__by__msg"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>sync_block</label>
+      </node>
+      <node id="85">
+        <label>gr::predistort::mult_complex_by_msg_impl</label>
+        <link refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" line="31" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1aaaf5ad7fb478ef2de8ce81c1d7e90747" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1aa714d3ea62cdcbb8f12590c0e5d1c3cf" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>d_scalar</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a8c926b432b3c21e13bf2e51b60df99aa" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>d_val</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1af3c6879e639d2b083e4d446cb9d79cfb" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>d_val_imag</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1ae2fe3ebc0b729604f5f76f17273656f5" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>d_val_real</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a40474513fbe9fcb0d167f16365303f24" prot="private" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg_1aa3c2aa373c121883044cdee36bd1e5a1" prot="public" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a40f94d4ca9f07515526f19a21bdb5fcb" prot="public" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>mult_complex_by_msg_impl</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg_1ae448d1ef1e0c1c1ee238685dd7e1e2bc" prot="public" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a56a884e6cf83d22aaf1d40f002c94a06" prot="public" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl_1a4a1f9be7ec0d181501bb530ed79c6c97" prot="public" virt="non-virtual"><scope>gr::predistort::mult_complex_by_msg_impl</scope><name>~mult_complex_by_msg_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1predistort_1_1delay__msg" kind="class" language="C++" prot="public">
+    <compoundname>gr::predistort::delay_msg</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1predistort_1_1delay__msg__impl" prot="public" virt="non-virtual">gr::predistort::delay_msg_impl</derivedcompoundref>
+    <includes refid="delay__msg_8h" local="no">delay_msg.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1predistort_1_1delay__msg_1a0f7b7646478a4acdacce8de73be371a4" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1predistort_1_1delay__msg" kindref="compound">delay_msg</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;delay_msg&gt; gr::predistort::delay_msg::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/delay_msg.h" line="38" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/delay_msg.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1delay__msg_1aa6256f1400a56bdb8370736be187af4a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1predistort_1_1delay__msg_1a0f7b7646478a4acdacce8de73be371a4" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::predistort::delay_msg::make</definition>
+        <argsstring>(int max_delay)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>max_delay</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1predistort_1_1delay__msg" kindref="compound">predistort::delay_msg</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1predistort_1_1delay__msg" kindref="compound">predistort::delay_msg</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1predistort_1_1delay__msg_1aa6256f1400a56bdb8370736be187af4a" kindref="member">predistort::delay_msg::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/delay_msg.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>gr::predistort::delay_msg</label>
+        <link refid="classgr_1_1predistort_1_1delay__msg"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>sync_block</label>
+      </node>
+      <node id="35">
+        <label>gr::predistort::delay_msg_impl</label>
+        <link refid="classgr_1_1predistort_1_1delay__msg__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>gr::predistort::delay_msg</label>
+        <link refid="classgr_1_1predistort_1_1delay__msg"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/delay_msg.h" line="36" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/include/predistort/delay_msg.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1predistort_1_1delay__msg_1aa6256f1400a56bdb8370736be187af4a" prot="public" virt="non-virtual"><scope>gr::predistort::delay_msg</scope><name>make</name></member>
+      <member refid="classgr_1_1predistort_1_1delay__msg_1a0f7b7646478a4acdacce8de73be371a4" prot="public" virt="non-virtual"><scope>gr::predistort::delay_msg</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

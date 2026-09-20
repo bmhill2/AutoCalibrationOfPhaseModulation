@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1predistort_1_1add__complex__by__msg__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::predistort::add_complex_by_msg_impl</compoundname>
+    <basecompoundref refid="classgr_1_1predistort_1_1add__complex__by__msg" prot="public" virt="non-virtual">gr::predistort::add_complex_by_msg</basecompoundref>
+    <includes refid="add__complex__by__msg__impl_8h" local="no">add_complex_by_msg_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab531bc87c6cd397d708217b6edc83ce8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::add_complex_by_msg_impl::d_val</definition>
+        <argsstring></argsstring>
+        <name>d_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="33" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ac9356c7501a54a3cbf89cb7dd2a1c4f7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::add_complex_by_msg_impl::d_val_real</definition>
+        <argsstring></argsstring>
+        <name>d_val_real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="34" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1af603809dec21e5951abc5ea2c5b0f492" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::predistort::add_complex_by_msg_impl::d_val_imag</definition>
+        <argsstring></argsstring>
+        <name>d_val_imag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="35" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ad828843ff0e80b8e02453b40a43aee74" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::predistort::add_complex_by_msg_impl::d_scalar</definition>
+        <argsstring></argsstring>
+        <name>d_scalar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="36" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab13f5eac2c00e10a9c0b2433f98d71fc" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::predistort::add_complex_by_msg_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="38" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a5bdbf9e3dfad4724d2b93269aca8aa14" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::predistort::add_complex_by_msg_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a5fc2cd0b6dc281cdae977d0af61145dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::add_complex_by_msg_impl::add_complex_by_msg_impl</definition>
+        <argsstring>()</argsstring>
+        <name>add_complex_by_msg_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a8adfb929ed7ccac9bbe2b4aef8f29df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::add_complex_by_msg_impl::~add_complex_by_msg_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~add_complex_by_msg_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab251415d15ca84ae0e37354999609634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::predistort::add_complex_by_msg_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>sync_block</label>
+      </node>
+      <node id="16">
+        <label>gr::predistort::add_complex_by_msg_impl</label>
+        <link refid="classgr_1_1predistort_1_1add__complex__by__msg__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gr::predistort::add_complex_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1add__complex__by__msg"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>sync_block</label>
+      </node>
+      <node id="19">
+        <label>gr::predistort::add_complex_by_msg_impl</label>
+        <link refid="classgr_1_1predistort_1_1add__complex__by__msg__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gr::predistort::add_complex_by_msg</label>
+        <link refid="classgr_1_1predistort_1_1add__complex__by__msg"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" line="31" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_complex_by_msg_impl.h" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a5fc2cd0b6dc281cdae977d0af61145dd" prot="public" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>add_complex_by_msg_impl</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab13f5eac2c00e10a9c0b2433f98d71fc" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ad828843ff0e80b8e02453b40a43aee74" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>d_scalar</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab531bc87c6cd397d708217b6edc83ce8" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>d_val</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1af603809dec21e5951abc5ea2c5b0f492" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>d_val_imag</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ac9356c7501a54a3cbf89cb7dd2a1c4f7" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>d_val_real</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a5bdbf9e3dfad4724d2b93269aca8aa14" prot="private" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg_1a36fe155633d4d407d5ae1d79d223ba59" prot="public" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg_1ad94159b41e9b29092540dde8e852bea5" prot="public" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1ab251415d15ca84ae0e37354999609634" prot="public" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1predistort_1_1add__complex__by__msg__impl_1a8adfb929ed7ccac9bbe2b4aef8f29df5" prot="public" virt="non-virtual"><scope>gr::predistort::add_complex_by_msg_impl</scope><name>~add_complex_by_msg_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

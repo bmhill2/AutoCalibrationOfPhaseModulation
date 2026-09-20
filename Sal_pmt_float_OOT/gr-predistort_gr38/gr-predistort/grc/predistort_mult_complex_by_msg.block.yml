@@ -1,0 +1,24 @@
+id: predistort_mult_complex_by_msg
+label: Complex Multiply Msg
+category: '[predistort]'
+
+templates:
+  imports: import predistort
+  make: predistort.mult_complex_by_msg()
+
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+  
+- label: ctrl_in
+  domain: message
+  id: ctrl_in
+  optional: true
+
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+
+file_format: 1

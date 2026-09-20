@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="lib_2add__by__msg__impl_8h" kind="file" language="C++">
+    <compoundname>lib/add_by_msg_impl.h</compoundname>
+    <includes refid="add__by__msg_8h" local="no">predistort/add_by_msg.h</includes>
+    <includes local="no">mutex</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="14">
+        <label>predistort/add_by_msg.h</label>
+        <link refid="add__by__msg_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="15">
+        <label>predistort/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>add_by_msg_impl.h</label>
+        <link refid="lib_2add__by__msg__impl_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>mutex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1predistort_1_1add__by__msg__impl" prot="public">gr::predistort::add_by_msg_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1predistort">gr::predistort</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/add_by_msg_impl.h"/>
+  </compounddef>
+</doxygen>

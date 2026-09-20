@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brendan/Documents/Sal_OOT/gr38/gr-predistort/swig/predistort_swig.i
+gnuradio.i
+/home/brendan/Documents/Sal_OOT/gr38/gr-predistort/swig/gnuradio.i
+predistort_swig_doc.i
+/home/brendan/Documents/Sal_OOT/gr38/gr-predistort/swig/predistort_swig_doc.i
+predistort/async_signal_mux.h
+/home/brendan/Documents/Sal_OOT/gr38/gr-predistort/swig/predistort/async_signal_mux.h
+predistort/async_signal_mux.h
+/home/brendan/Documents/Sal_OOT/gr38/gr-predistort/swig/predistort/async_signal_mux.h
+

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mult__complex__by__msg__impl_8h" kind="file" language="C++">
+    <compoundname>mult_complex_by_msg_impl.h</compoundname>
+    <includes refid="mult__complex__by__msg_8h" local="no">predistort/mult_complex_by_msg.h</includes>
+    <includes local="no">mutex</includes>
+    <incdepgraph>
+      <node id="135">
+        <label>predistort/mult_complex_by_msg.h</label>
+        <link refid="mult__complex__by__msg_8h"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="137">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="136">
+        <label>predistort/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>mutex</label>
+      </node>
+      <node id="134">
+        <label>mult_complex_by_msg_impl.h</label>
+        <link refid="mult__complex__by__msg__impl_8h"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1predistort_1_1mult__complex__by__msg__impl" prot="public">gr::predistort::mult_complex_by_msg_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1predistort">gr::predistort</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/mult_complex_by_msg_impl.h"/>
+  </compounddef>
+</doxygen>

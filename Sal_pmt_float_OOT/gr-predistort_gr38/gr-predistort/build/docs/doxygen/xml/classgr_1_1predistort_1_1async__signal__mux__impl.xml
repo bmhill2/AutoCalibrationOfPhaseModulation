@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1predistort_1_1async__signal__mux__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::predistort::async_signal_mux_impl</compoundname>
+    <basecompoundref refid="classgr_1_1predistort_1_1async__signal__mux" prot="public" virt="non-virtual">gr::predistort::async_signal_mux</basecompoundref>
+    <includes refid="async__signal__mux__impl_8h" local="no">async_signal_mux_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1async__signal__mux__impl_1a1f92336e589e9f332467e1b331c49466" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::predistort::async_signal_mux_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="33" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1async__signal__mux__impl_1a7d390950ec0c2830212333695e642112" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::predistort::async_signal_mux_impl::d_num_inputs</definition>
+        <argsstring></argsstring>
+        <name>d_num_inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="34" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1async__signal__mux__impl_1a009ff4ed621e8ade26b348715c568389" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::predistort::async_signal_mux_impl::d_current_stream</definition>
+        <argsstring></argsstring>
+        <name>d_current_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="35" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1predistort_1_1async__signal__mux__impl_1a72b536705f61234292dbc1d91f8f9108" prot="private" static="no" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex gr::predistort::async_signal_mux_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="37" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1async__signal__mux__impl_1acab041f860214a626eca99d4fce361b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::predistort::async_signal_mux_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1predistort_1_1async__signal__mux__impl_1aa0b12dc0403ee5c327c0ef90cd9102f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::async_signal_mux_impl::async_signal_mux_impl</definition>
+        <argsstring>(size_t itemsize, int num_inputs)</argsstring>
+        <name>async_signal_mux_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1async__signal__mux__impl_1ab8256686c133dd3d8a854a605cd6321e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::predistort::async_signal_mux_impl::~async_signal_mux_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~async_signal_mux_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1async__signal__mux__impl_1a0e31123d2864165691943afdf96458cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::predistort::async_signal_mux_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1predistort_1_1async__signal__mux__impl_1aa249e80ec4a52fde1c2896a32bc1f906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::predistort::async_signal_mux_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>gr::predistort::async_signal_mux_impl</label>
+        <link refid="classgr_1_1predistort_1_1async__signal__mux__impl"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>gr::predistort::async_signal_mux</label>
+        <link refid="classgr_1_1predistort_1_1async__signal__mux"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>gr::predistort::async_signal_mux_impl</label>
+        <link refid="classgr_1_1predistort_1_1async__signal__mux__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>gr::predistort::async_signal_mux</label>
+        <link refid="classgr_1_1predistort_1_1async__signal__mux"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" line="31" column="1" bodyfile="/home/brendan/Documents/Sal_pmt_float_OOT/gr-predistort_gr38/gr-predistort/lib/async_signal_mux_impl.h" bodystart="30" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1aa0b12dc0403ee5c327c0ef90cd9102f2" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>async_signal_mux_impl</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1a009ff4ed621e8ade26b348715c568389" prot="private" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>d_current_stream</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1a1f92336e589e9f332467e1b331c49466" prot="private" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1a72b536705f61234292dbc1d91f8f9108" prot="private" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1a7d390950ec0c2830212333695e642112" prot="private" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>d_num_inputs</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1a0e31123d2864165691943afdf96458cb" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1aa249e80ec4a52fde1c2896a32bc1f906" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1acab041f860214a626eca99d4fce361b6" prot="private" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux_1aac88459bd81e1992d78e3431c0cf75c2" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux_1a7be03fbc11434421ef773f01833c2a33" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1predistort_1_1async__signal__mux__impl_1ab8256686c133dd3d8a854a605cd6321e" prot="public" virt="non-virtual"><scope>gr::predistort::async_signal_mux_impl</scope><name>~async_signal_mux_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
