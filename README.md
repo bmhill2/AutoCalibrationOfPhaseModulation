@@ -4,4 +4,5 @@ The main flowgraph is "AutoCalibrationQPSK_demo."  It was made with GNU Radio Co
 The heart of the automatic calibration is an embedded python block.  The code for this block is epy_block_0.py.
 
 There are OOTs used to switch between different test signals and allow PMT messages to update relative gain values, 
-quadrature skew, and DC offsets.
+quadrature skew, and DC offsets.  They are float_multiply_msg and float_add_msg.  There are other versions of these
+blocks available for complex data, but they are not used in the main demo flowgraph.
